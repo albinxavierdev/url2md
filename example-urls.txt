@@ -1,0 +1,24 @@
+# Example URLs for batch processing
+# Works with both url2md.sh (Linux/Mac) and url2md.bat (Windows)
+# Lines starting with # are ignored
+# Add one URL per line
+
+# Tech blogs and documentation
+https://blog.golang.org/
+https://nodejs.org/en/blog/
+
+# Documentation sites  
+https://docs.github.com/en/get-started/quickstart/hello-world
+https://golang.org/doc/
+
+# Educational content
+https://en.wikipedia.org/wiki/Markdown
+https://en.wikipedia.org/wiki/HTML
+
+# News articles (uncomment to test)
+# https://techcrunch.com/
+# https://arstechnica.com/science/
+
+# Example sites for testing
+https://example.com/
+https://httpbin.org/html

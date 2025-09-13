@@ -1,0 +1,30 @@
+# URL2MD Configuration File
+# Place this file in your home directory as ~/.url2mdrc or in project root as .url2mdrc
+
+# Default directories
+MEDIA_DIR="media"
+OUTPUT_DIR="markdown"
+
+# Network settings
+USER_AGENT="Mozilla/5.0 (compatible; URL2MD-Converter/2.0)"
+TIMEOUT=30
+RETRIES=3
+
+# Common CSS selectors for popular sites
+WORDPRESS_SELECTOR=".entry-content"
+MEDIUM_SELECTOR="article"
+GHOST_SELECTOR=".post-content"
+JEKYLL_SELECTOR=".post-content"
+
+# Media processing
+MAX_MEDIA_FILES=50
+IMAGE_FORMATS="jpg,jpeg,png,gif,webp,svg,bmp,ico,tiff"
+VIDEO_FORMATS="mp4,webm,ogg,avi,mov,wmv,flv,mkv,m4v"
+AUDIO_FORMATS="mp3,wav,ogg,flac,aac,m4a,wma,opus"
+DOCUMENT_FORMATS="pdf,doc,docx,ppt,pptx,xls,xlsx,zip,rar,7z,tar,gz"
+FONT_FORMATS="woff,woff2,ttf,otf,eot"
+
+# Output options
+KEEP_HTML=false
+SKIP_MEDIA=false
+MEDIA_TYPES_FILTER="images,videos,audio,documents,fonts"  # or leave empty for all
